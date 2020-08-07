@@ -12,6 +12,7 @@ print(np.hstack((a, b)))
 # 增加维度
 # 将行向量变为列向量
 print(a[:, np.newaxis])
+
 c = a[np.newaxis, :]
 print(np.shape(c))
 
